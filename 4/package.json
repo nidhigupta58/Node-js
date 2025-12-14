@@ -1,0 +1,24 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "Your daily task manager",
+  "keywords": [
+    "node",
+    "express",
+    "task-manager"
+  ],
+  "license": "MIT",
+  "author": "Nidhi Gupta",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "nidhi": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
